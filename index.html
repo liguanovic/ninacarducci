@@ -20,34 +20,53 @@
 	<meta property="og:description" content="Découvrez mon portfolio ! Nina Carducci, photographe spécialisée dans les mariages, portraits , événements et toutes autres cérémonies ou activitées Bordeaux.">
 
 	<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "contactPoint": {
-			"@type": "ContactPoint",
-			"email": "contact@ninacarducci.com",
-			"telephone": "+33 5 56 67 78 89",
-			"areaServed": "Bordeaux, France",
-			"availableLanguage": "Français",
-			"productSupported": "Services photographiques pour mariages, portraits et événements"
-		},
-	
-		"address": {
-			"@type": "PostalAddress",
-			"addressCountry": "FR",
-			"addressRegion": "Bordeaux",
-			"postalCode": "33200",
-			"streetAddress": "68 avenue Alsace-Lorraine"
-		},
-	
-		"founder": {
-			"@type": "Person",
-			"familyName": "Carducci",
-			"givenName": "Nina",
-			"jobTitle": "Photographe spécialisée",
-			"knowsAbout": "Photographie, Mariages, Portraits, Événements",
-			"knowsLanguage": "Français"
-		}
-	}
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Nina Carducci",
+				"description": "Photographe spécialisée dans les mariages, portraits et événements à Bordeaux.",
+				"url": "https://liguanovic.github.io/ninacarducci/",
+				"image": "https://liguanovic.github.io/ninacarducci/assets/images/nina.webp",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"email": "contact@ninacarducci.com",
+					"telephone": "+33 5 56 67 78 89",
+					"areaServed": "Bordeaux, France",
+					"availableLanguage": "Français",
+					"productSupported": "Services photographiques pour mariages, portraits et événements",
+					"hoursAvailable": [
+						{
+							"@type": "OpeningHoursSpecification",
+							"dayOfWeek": [
+								"Lundi",
+								"Mardi",
+								"Mercredi",
+								"Jeudi",
+								"Vendredi"
+							],
+							"opens": "10:00",
+							"closes": "19:00"
+						}
+					]
+				},
+				"address": {
+					"@type": "PostalAddress",
+					"addressCountry": "FR",
+					"addressRegion": "Bordeaux",
+					"postalCode": "33200",
+					"streetAddress": "68 avenue Alsace-Lorraine"
+				},
+				"founder": {
+					"@type": "Person",
+					"familyName": "Carducci",
+					"givenName": "Nina",
+					"jobTitle": "Photographe spécialisée",
+					"knowsAbout": "Photographie, Mariages, Portraits, Événements",
+					"knowsLanguage": "Français"
+				}
+			}
+			</script>
 		</script>
 	
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
